@@ -1,0 +1,17 @@
+#ifndef ECS_H
+#define ECS_H
+
+class ECS{
+public:
+    ECS(int, int);
+    ~ECS();
+    void floorRequest(int, char);
+    void carRequest(int, int);
+    void newFloor(int, int);
+    void readyToMove(int);
+private:
+    int numElevator;
+    int numFloor;
+
+};
+#endif // ECS_H
